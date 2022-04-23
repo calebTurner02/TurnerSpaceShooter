@@ -174,7 +174,7 @@
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Keyboard&Mouse",
+                    "groups": "Keyboard&Mouse",
                     "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -395,6 +395,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "New control scheme",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c40ceb33-a4fa-4773-8a22-1fe5ba54e377",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
