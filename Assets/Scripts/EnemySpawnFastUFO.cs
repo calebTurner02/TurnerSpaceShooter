@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawn : MonoBehaviour
+public class EnemySpawnFastUFO : MonoBehaviour
 {
-    [SerializeField] Transform Enemy;
+  [SerializeField] Transform Enemy;
     [SerializeField] float fltTimer = 5f;
    
    void Start() 
@@ -26,6 +26,6 @@ public class EnemySpawn : MonoBehaviour
 
     void setposition()
     {
-        Enemy.transform.position = new Vector3(10,2,3);
+        Enemy.transform.position = new Vector3(10,-3,3);
     }
 }
