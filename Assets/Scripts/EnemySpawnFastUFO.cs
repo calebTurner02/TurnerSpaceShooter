@@ -26,6 +26,6 @@ public class EnemySpawnFastUFO : MonoBehaviour
 
     void setposition()
     {
-        Enemy.transform.position = new Vector3(10,-3,3);
+        Enemy.transform.position = new Vector3(21,-3,3);
     }
 }

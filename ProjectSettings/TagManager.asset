@@ -12,12 +12,12 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - background
   - Water
   - UI
   - Player
   - Bullet
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -47,6 +47,9 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 26196217
+    locked: 0
+  - name: Enemy
+    uniqueID: 3682036787
     locked: 0
   - name: Player
     uniqueID: 2927193225

@@ -26,6 +26,6 @@ public class EnemySpawn : MonoBehaviour
 
     void setposition()
     {
-        Enemy.transform.position = new Vector3(10,2,3);
+        Enemy.transform.position = new Vector3(21,2,3);
     }
 }

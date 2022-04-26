@@ -11,7 +11,9 @@ public class MoveShip : MonoBehaviour
     [SerializeField] Transform gun;
     [SerializeField] Transform gun2;
 
+
 Vector2 moveInput;
+BoxCollider2D myBodyCollider;
 
  Rigidbody2D myRigidBody;
  //Get move input and check in the console 
@@ -32,15 +34,19 @@ Vector2 moveInput;
     {
         Move();
         
+        
+        
     }
     //Move the ship and multiply it by the set speed
     void Move()
     {
+      
         myRigidBody.velocity = moveInput * fltMoveSpeed;
     }
 
-      void OnFire(InputValue value)
+    void OnFire(InputValue value)    
     {
+      
         Instantiate(bullet, gun.position, transform.rotation);
 
         Instantiate(bullet, gun2.position, transform.rotation);
