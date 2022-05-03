@@ -100,6 +100,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fltBulletSpeed: 20
+  intScore: 0
+  scoreText: {fileID: 7133895064864166498, guid: 789f54d156ed89e4f9f772aa03a3c613, type: 3}
+  intPointsToAdd: 1
 --- !u!50 &6404530356255076419
 Rigidbody2D:
   serializedVersion: 4

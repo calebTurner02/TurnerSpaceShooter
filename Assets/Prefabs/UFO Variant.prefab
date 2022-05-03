@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6873843470426529059, guid: 5ed546fd9c6a916429ba2da63dc1e3d6, type: 3}
       propertyPath: fltMoveSpeed
-      value: 15
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3416946041828633226, guid: 5ed546fd9c6a916429ba2da63dc1e3d6, type: 3}
       propertyPath: m_SortingLayer
